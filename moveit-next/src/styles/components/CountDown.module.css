@@ -78,4 +78,11 @@
     background: var(--white);
     color: var(--text);
     cursor: not-allowed;
+    border-bottom: 6px solid var(--green);
+    box-shadow: 0 3px -2px 10px var(--gray-line);
+}
+
+.countDownButton:disabled img{
+    margin-left: 0.5rem;
+    border: 0;
 }
