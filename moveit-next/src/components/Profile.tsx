@@ -1,5 +1,7 @@
 import { profile } from "console";
 
+import styles from '../styles/components/Perfil.module.css'
+
 export function Profile(){
     return(
         <div>
